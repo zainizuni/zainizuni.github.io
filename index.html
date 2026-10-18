@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zainab Bilal | Graphic Designer, Video Editor & Content Creator</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>document.documentElement.className='js'</script>
+<style>
+:root{--bg:#FBF8FF;--card:#fff;--text:#1B1633;--muted:#6A6483;--line:#E6DEF7;--a:#6C4DFF;--b:#FF5C93;--c:#FFB48A;--glow:.35;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F0B24;--card:#1A1438;--text:#F4F0FF;--muted:#A9A1C8;--line:#2D2557;--glow:.5}}
+:root[data-theme="dark"]{--bg:#0F0B24;--card:#1A1438;--text:#F4F0FF;--muted:#A9A1C8;--line:#2D2557;--glow:.5}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Poppins,system-ui,Arial,sans-serif;line-height:1.6;overflow-x:hidden}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px;position:relative}
+.grad{background:linear-gradient(90deg,var(--a),var(--b),var(--c));-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200% 100%;animation:shift 6s ease-in-out infinite alternate}
+@keyframes shift{to{background-position:100% 0}}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0;position:relative;z-index:2}
+.logo{font-weight:800;font-size:20px}
+nav a{text-decoration:none;margin-left:18px;font-size:14px;color:var(--muted);font-weight:500}
+.hero{padding:70px 0 60px;position:relative}
+.blob{position:absolute;border-radius:50%;filter:blur(70px);opacity:var(--glow);animation:float 9s ease-in-out infinite alternate;pointer-events:none}
+.b1{width:300px;height:300px;background:var(--a);top:-40px;right:-60px}
+.b2{width:240px;height:240px;background:var(--b);bottom:-30px;left:-70px;animation-delay:-3s}
+.b3{width:180px;height:180px;background:var(--c);top:40%;right:25%;animation-delay:-6s}
+@keyframes float{to{transform:translate(30px,-40px) scale(1.15)}}
+.hero>*{position:relative;z-index:1}
+.pill{display:inline-block;padding:6px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:13px;font-weight:600;color:var(--a)}
+.hero h1{font-size:clamp(40px,9vw,84px);line-height:1.05;margin:18px 0;font-weight:800}
+.hero p{max-width:560px;color:var(--muted);font-size:17px;margin:0 0 24px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:13px 26px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15px;background:linear-gradient(90deg,var(--a),var(--b));color:#fff;transition:transform .25s,box-shadow .25s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(108,77,255,.35)}
+.btn.alt{background:transparent;border:1.5px solid var(--a);color:var(--a)}
+.strip{overflow:hidden;background:linear-gradient(90deg,var(--a),var(--b));color:#fff;padding:14px 0;font-weight:600;transform:rotate(-1.2deg);margin:10px -10px}
+.strip div{display:flex;width:max-content;animation:scroll 22s linear infinite}
+.strip span{padding:0 28px;white-space:nowrap}
+@keyframes scroll{to{transform:translateX(-50%)}}
+section{padding:64px 0}
+h2{font-size:clamp(28px,5vw,40px);margin:0 0 8px;font-weight:700}
+.sub{color:var(--muted);margin:0 0 28px;max-width:560px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;transition:transform .3s,box-shadow .3s,border-color .3s}
+.card:hover{transform:translateY(-6px);border-color:var(--b);box-shadow:0 14px 30px rgba(108,77,255,.15)}
+.card .n{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--a),var(--b));color:#fff;display:grid;place-items:center;font-weight:700;margin-bottom:12px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:14.5px}
+.work{aspect-ratio:4/5;border-radius:20px;background:linear-gradient(160deg,var(--card),var(--line));border:2px dashed var(--b);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:14px;transition:transform .3s}
+.work:hover{transform:rotate(-1.5deg) scale(1.03)}
+.work b{font-size:17px}
+.work span{color:var(--muted);font-size:13px;margin-top:4px}
+.job{display:grid;gap:2px;padding:20px 0 20px 22px;border-left:3px solid var(--line);position:relative}
+.job:before{content:"";position:absolute;left:-8px;top:26px;width:13px;height:13px;border-radius:50%;background:linear-gradient(135deg,var(--a),var(--b))}
+.job h3{margin:0;font-size:19px}
+.job em{font-style:normal;color:var(--b);font-weight:600;font-size:14px}
+.job p{margin:4px 0 0;color:var(--muted);font-size:15px}
+.chips{display:flex;gap:10px;flex-wrap:wrap}
+.chip{padding:9px 18px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-weight:500;font-size:14px;transition:transform .25s}
+.chip:hover{transform:scale(1.08);border-color:var(--a)}
+.cta{text-align:center;padding:56px 20px;border-radius:28px;background:linear-gradient(135deg,var(--a),var(--b));color:#fff;position:relative;overflow:hidden}
+.cta h2{color:#fff}
+.cta p{margin:0 0 22px;opacity:.9}
+.cta .btn{background:#fff;color:var(--a);margin:4px}
+.cta .btn.alt{background:transparent;border-color:#fff;color:#fff}
+footer{text-align:center;padding:36px 0 48px;color:var(--muted);font-size:14px}
+.js .r{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}
+.js .r.in{opacity:1;transform:none}
+.bar{position:fixed;top:0;left:0;height:4px;width:0;background:linear-gradient(90deg,var(--a),var(--b),var(--c));z-index:9}
+.rot{display:inline-block;color:var(--b)}
+.rot:after{content:"|";margin-left:2px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.shape{position:absolute;font-size:30px;animation:bob 5s ease-in-out infinite alternate;z-index:1;pointer-events:none}
+@keyframes bob{to{transform:translateY(-24px) rotate(20deg)}}
+.card,.work{position:relative;overflow:hidden}
+.card:after,.work:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 30%,rgba(255,255,255,.35) 50%,transparent 70%);transform:translateX(-120%);transition:transform .7s;pointer-events:none}
+.card:hover:after,.work:hover:after{transform:translateX(120%)}
+.strip.s2{transform:rotate(1.2deg);background:var(--card);color:var(--text);border-block:1px solid var(--line);margin:30px -10px 0}
+.strip.s2 div{animation-direction:reverse}
+.shot{margin:0;border-radius:20px;overflow:hidden;background:var(--card);border:1px solid var(--line);transition:transform .3s,box-shadow .3s}
+.shot:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(108,77,255,.18)}
+.shot img{display:block;width:100%;height:auto}
+.shot figcaption{padding:12px 14px;display:grid;gap:2px}
+.shot b{font-size:15px}
+.shot span{color:var(--muted);font-size:13px}
+.cat{padding:0;cursor:pointer;display:block}
+.cat .cv{aspect-ratio:4/3;background:linear-gradient(160deg,var(--card),var(--line)) center 25%/cover;border-bottom:1px solid var(--line)}
+.cat .ct{padding:14px 16px}
+.cat h3{margin:0;font-size:17px}
+.cat p{margin:2px 0 0;color:var(--muted);font-size:13.5px}
+.cat.soon{opacity:.55;cursor:default}
+.card.link{cursor:pointer}
+.card p.more{color:var(--a);font-weight:600;margin-top:8px}
+.view{position:fixed;inset:0;z-index:20;background:var(--bg);overflow:auto;padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
+.view[hidden],.lb[hidden]{display:none}
+.vh{position:sticky;top:0;background:var(--bg);padding:14px 20px;display:flex;gap:14px;align-items:center;border-bottom:1px solid var(--line);z-index:2}
+.vh h2{margin:0;font-size:22px}
+.back{border:1.5px solid var(--a);background:transparent;color:var(--a);padding:8px 18px;border-radius:999px;font:600 14px Poppins,system-ui,sans-serif;cursor:pointer}
+.vw{max-width:1040px;margin:0 auto;padding:22px 20px 60px}
+.fil{display:flex;gap:8px;flex-wrap:wrap}
+.fil:not(:empty){margin-bottom:18px}
+.fil button{border:1px solid var(--line);background:var(--card);color:var(--text);padding:8px 16px;border-radius:999px;font:500 14px Poppins,system-ui,sans-serif;cursor:pointer}
+.fil button.on{background:linear-gradient(90deg,var(--a),var(--b));color:#fff;border-color:transparent}
+.shot{cursor:zoom-in}
+.empty{color:var(--muted);padding:40px 0}
+.lb{position:fixed;inset:0;z-index:30;background:rgba(10,6,24,.92);display:grid;place-items:center;padding:20px;cursor:zoom-out}
+.lb img{max-width:100%;max-height:100%;border-radius:12px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .r{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="bar" id="bar"></div>
+<div class="wrap">
+<nav><span class="logo grad">Zainab Bilal</span><div><a href="#fly">Services</a><a href="#work">Work</a><a href="#contact">Contact</a></div></nav>
+
+<header class="hero">
+<i class="blob b1"></i><i class="blob b2"></i><i class="blob b3"></i><span class="shape" style="top:18%;right:14%">✦</span><span class="shape" style="top:60%;right:7%;animation-delay:-2s">🎬</span><span class="shape" style="top:6%;left:48%;animation-delay:-3s">🎨</span>
+<span class="pill">Open for creative work</span>
+<h1>I design, edit &amp; create <span class="grad">scroll-stopping</span> <span class="rot" id="rot">posts</span></h1>
+<p>Hi, I'm Zainab: a graphic designer, video editor and content creator. I design posts, edit reels, plan content calendars and make clean documents for brands.</p>
+<div class="btns"><a class="btn" href="#work">See my work</a><a class="btn alt" href="#contact">Say hello</a></div>
+</header>
+</div>
+
+<div class="strip"><div>
+<span>Graphic Design ✦</span><span>Video Editing ✦</span><span>Social Media ✦</span><span>Content Calendar ✦</span><span>Documents ✦</span>
+<span>Graphic Design ✦</span><span>Video Editing ✦</span><span>Social Media ✦</span><span>Content Calendar ✦</span><span>Documents ✦</span>
+</div></div>
+
+<div class="wrap">
+<section id="fly">
+<h2 class="r">What I <span class="grad">do</span></h2>
+<p class="sub r">Creative and content work, from planning to posting.</p>
+<div class="grid">
+<div class="card r" data-open="posts"><div class="n">01</div><h3>Social Media Posts</h3><p>Designing and uploading posts for business pages.</p></div>
+<div class="card r" data-open="reels"><div class="n">02</div><h3>Video Editing</h3><p>Editing videos and reels for social media.</p></div>
+<div class="card r" data-open="calendar"><div class="n">03</div><h3>Content Calendar</h3><p>Planning what to post and when, so pages stay consistent.</p></div>
+<div class="card r"><div class="n">04</div><h3>Social Media Management</h3><p>Managing social media content and regular posting.</p></div>
+<div class="card r" data-open="docs"><div class="n">05</div><h3>Documents</h3><p>Creating clean, professional documents.</p></div>
+</div>
+</section>
+
+<section id="work">
+<h2 class="r">Selected <span class="grad">work</span></h2>
+<p class="sub r">Tap a category to see the designs inside. Café, skincare and clothing posts are concept projects: AI-assisted visuals, designed and finished in Canva.</p>
+<div class="grid" id="cats"></div>
+</section>
+
+<section>
+<h2 class="r">My <span class="grad">journey</span></h2>
+<div class="job r"><h3>Fly High Immigration</h3><em>Design · Video · Content Calendar · Social Media · Documents</em><p>Responsible for all creative and content work: designing and posting social media content, editing videos and reels, planning the content calendar, and creating documents.</p></div>
+<div class="job r"><h3>Kohat Global Immigration Consultant</h3><em>About 2 months</em><p>Creative and content work.</p></div>
+<div class="job r"><h3>Makkah Auto Engineering</h3><em>Aug – Sep 2026 · Posts, Documents, Video Editing</em><p>Created the company's social media posts and documents, and edited videos.</p></div>
+</section>
+
+<section>
+<h2 class="r">Tools I <span class="grad">use</span></h2>
+<div class="chips r"><span class="chip">Canva</span><span class="chip">CapCut</span><span class="chip">Google Flow AI</span><span class="chip">AI tools</span><span class="chip">+ other tools as the project needs</span></div>
+</section>
+
+<section id="contact">
+<div class="cta r">
+<h2>Let's create something great</h2>
+<p>Have a project in mind? Send me a message.</p>
+<a class="btn" href="mailto:zainabilal204@gmail.com">Email me</a>
+<a class="btn" href="https://wa.me/923190222461" target="_blank" rel="noopener">WhatsApp</a>
+<a class="btn alt" href="https://pk.linkedin.com/in/zainab-bilal-514483423" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+</section>
+</div>
+<div class="strip s2"><div><span>Canva ✦</span><span>CapCut ✦</span><span>Google Flow AI ✦</span><span>AI tools ✦</span><span>Canva ✦</span><span>CapCut ✦</span><span>Google Flow AI ✦</span><span>AI tools ✦</span></div></div>
+<div class="view" id="view" hidden><div class="vh"><button class="back" id="back">&larr; Back</button><h2 id="vt"></h2></div><div class="vw"><div class="fil" id="fil"></div><div class="grid" id="vg"></div></div></div>
+<div class="lb" id="lb" hidden><img alt=""></div>
+<footer>© Zainab Bilal</footer>
+<script>
+try{var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.r').forEach(function(el){io.observe(el)})}catch(e){document.querySelectorAll('.r').forEach(function(el){el.classList.add('in')})}
+</script>
+<script>
+(function(){var w=['posts','reels','carousels','thumbnails','documents'],i=0,c=0,del=false,t=document.getElementById('rot');
+function tick(){var s=w[i];c+=del?-1:1;t.textContent=s.slice(0,c);var d=del?45:90;if(!del&&c==s.length){del=true;d=1300}else if(del&&c==0){del=false;i=(i+1)%w.length;d=250}setTimeout(tick,d)}
+if(t&&!matchMedia('(prefers-reduced-motion:reduce)').matches){t.textContent='';tick()}
+var b=document.getElementById('bar');addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-innerHeight;b.style.width=(h>0?scrollY/h*100:0)+'%'},{passive:true});
+document.querySelectorAll('.card').forEach(function(el){el.addEventListener('mousemove',function(e){var r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;el.style.transform='perspective(600px) rotateY('+x*10+'deg) rotateX('+(-y*10)+'deg) translateY(-6px)'});el.addEventListener('mouseleave',function(){el.style.transform=''})});
+})();
+</script>
+<script src="works.js"></script>
+<script>
+(function(){
+var W=window.WORKS||[];
+var C=[['posts','Social Media Posts'],['carousel','Carousels'],['reels','Reels & Videos'],['calendar','Content Calendar'],['thumbs','Thumbnails'],['docs','Document Design']];
+var T={};C.forEach(function(c){T[c[0]]=c[1]});
+var $=function(i){return document.getElementById(i)};
+var view=$('view'),vt=$('vt'),fil=$('fil'),vg=$('vg'),lb=$('lb'),lbi=lb.querySelector('img');
+function items(id){return W.filter(function(i){return i.cat===id})}
+function show(id,tag){
+var it=items(id).filter(function(i){return !tag||i.tag===tag});
+vg.innerHTML='';
+if(!it.length){vg.innerHTML='<p class="empty">Samples for this category are coming soon.</p>';return}
+it.forEach(function(i){var f=document.createElement('figure');f.className='shot';
+var im=document.createElement('img');im.src=i.img;im.alt=i.alt||i.name;im.loading='lazy';f.appendChild(im);
+var cap=document.createElement('figcaption');cap.innerHTML='<b></b><span></span>';
+cap.firstChild.textContent=i.name||'';cap.lastChild.textContent=i.link?'Watch video \u2192':(i.sub||'');f.appendChild(cap);
+f.onclick=function(){if(i.link){window.open(i.link,'_blank','noopener')}else{lbi.src=i.img;lbi.alt=im.alt;lb.hidden=false}};vg.appendChild(f)})}
+function openV(id){
+vt.textContent=T[id];fil.innerHTML='';
+var tags=[];items(id).forEach(function(i){if(i.tag&&tags.indexOf(i.tag)<0)tags.push(i.tag)});
+if(tags.length>1){['All'].concat(tags).forEach(function(t,k){var b=document.createElement('button');b.textContent=t;if(!k)b.className='on';
+b.onclick=function(){[].forEach.call(fil.children,function(x){x.className=''});b.className='on';show(id,k?t:'')};fil.appendChild(b)})}
+show(id,'');view.hidden=false;view.scrollTop=0;document.body.style.overflow='hidden'}
+function closeV(){view.hidden=true;document.body.style.overflow=''}
+var grid=$('cats');
+C.forEach(function(c){var it=items(c[0]),d=document.createElement('div');d.className='card cat'+(it.length?'':' soon');
+d.innerHTML='<div class="cv"></div><div class="ct"><h3></h3><p></p></div>';
+d.querySelector('h3').textContent=c[1];
+d.querySelector('p').textContent=it.length?it.length+(it.length>1?' items':' item')+' \u00b7 View work \u2192':'Coming soon';
+if(it.length){d.querySelector('.cv').style.backgroundImage='url("'+it[0].img+'")';d.onclick=function(){openV(c[0])}}
+grid.appendChild(d)});
+[].forEach.call(document.querySelectorAll('[data-open]'),function(c){var id=c.dataset.open;if(!items(id).length)return;
+c.classList.add('link');var m=document.createElement('p');m.className='more';m.textContent='View work \u2192';c.appendChild(m);c.onclick=function(){openV(id)}});
+$('back').onclick=closeV;lb.onclick=function(){lb.hidden=true};
+addEventListener('keydown',function(e){if(e.key==='Escape'){if(!lb.hidden)lb.hidden=true;else if(!view.hidden)closeV()}});
+})();
+</script>
+</body>
+</html>
